@@ -81,7 +81,7 @@ a.button-small {
 }
 
 .hero-wrap {
-    background-image: url(/images/Group\ 2574.png);
+    background-image: url(./images/Group\ 2574.png);
     background-repeat: no-repeat;
     background-position:85% 50%;
     background-size:contain;
@@ -96,7 +96,7 @@ a.button-small {
 }
 
 .hero-sun{
-    background-image: url(/images/hero-sun.png);
+    background-image: url(./images/hero-sun.png);
     width: 84px;
     height: 84px;
     position: absolute;
@@ -105,7 +105,7 @@ a.button-small {
 }
 
 .hero-moon {
-    background-image: url(/images/hero-moon.png);
+    background-image: url(./images/hero-moon.png);
     width:66px;
     height:132px;
     position:absolute;
@@ -147,7 +147,7 @@ a.button-small {
 }
 
 .prima-rectangle {
-    background-image: url(/images/prima-rectangle.png);
+    background-image: url(./images/prima-rectangle.png);
     width:717px;
     height:153px;
     position:absolute;
@@ -232,7 +232,7 @@ a.button-large {
 }
 
 .dots {
-    background-image: url(/images/donts.png);
+    background-image: url(./images/donts.png);
     width:214px;
     height:214px;
     position:absolute;
@@ -242,7 +242,7 @@ a.button-large {
 }
 
 .rectan-full {
-    background-image:url(/images/Rectangle-good.png);
+    background-image:url(./images/Rectangle-good.png);
     width:436px;
     height: 182px;
     position:absolute;
