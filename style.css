@@ -103,18 +103,21 @@ a.button-small {
 }
 
 .hero-sun{
-    background-image: url(./images/hero-sun.png);
+    background: linear-gradient(359deg, rgb(255, 255, 255), rgb(255 152 69 / 30%));
+    border-radius: 50%;
     width: 84px;
     height: 84px;
     position: absolute;
     top: -10%;
     left: 30%;
+    z-index:-998;
 }
 
 .hero-moon {
-    background-image: url(./images/hero-moon.png);
-    width:132px;
-    height:132px;
+    background-image: linear-gradient(rgb(142 142 142 / 0%), rgb(91 91 91 / 16%));
+    border-radius:50%;
+    width:25%;
+    height:40%;
     position:absolute;
     top: 100%;
     right: 95%;
