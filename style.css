@@ -100,12 +100,18 @@ a.button-small {
     padding-left: 40px;
     padding-top: 160px;
     padding-bottom: 240px;
+    background-image: url(./images/Group\ 2574.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    background-size: contain;
 }
 
 .hero-container {
     width: 35%;
     position: relative;
 }
+
+
 
 .hero-sun{
     background: linear-gradient(359deg, rgb(255, 255, 255), rgb(255 152 69 / 30%));
@@ -486,6 +492,7 @@ textarea {
         padding-top: 0px;
         padding-bottom: 0px;
         padding-right: 120px;
+        background-image:none;
     }
 
     .hero-container {
