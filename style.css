@@ -23,6 +23,7 @@ html,body
 
 .container {
     max-width: 1440px;
+    min-width: 414px;
     box-sizing: border-box;
     padding: 0 30px;
     margin: 0 auto;
@@ -281,11 +282,12 @@ a.button-large {
 .second-container .box-container.big.white {
     background-color: wheat;
     padding: 100px 35px;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     position:relative;
+    background: linear-gradient(167deg, rgba(255,255,255,1) 52%, rgba(182,188,189,1) 100%);
 }
 
 
@@ -293,7 +295,7 @@ a.button-large {
     background-color: rgba(100, 123, 100, 1);
     color:white;
     padding: 100px 35px;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -563,6 +565,16 @@ textarea {
         padding-right: 120px;
     }
 
+    .primary-container .container-half.right {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        margin-right: 0%;
+        padding: 0px 30px 0px 30px;
+    }
+
     .container-half.left .main-button .button-large {
         width: 100%;
     }
@@ -577,15 +589,6 @@ textarea {
         right: 95%;
     }
 
-    .primary-container .container-half.right {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 10px;
-        margin-right: 0%;
-        padding: 0px 30px 0px 30px;
-    }
 
     .box-title{
         padding:10px 0px;
@@ -599,7 +602,28 @@ textarea {
 
     .box-description{
         padding-bottom:0px;
+        font-size: 9px;
     }
+
+    .container.foot-wrap {
+        padding: 30px 30px;
+    }
+
+    .box-container.big.white {
+        max-height: 200px;
+        min-width: 200px;
+        border-radius:2px
+    }
+
+    .box-container.big.green {
+        max-height: 200px;
+        min-width: 200px;
+    }
+
+    .second-container .container-half.bottom {
+        column-gap: 20px;
+    }
+
 }
 
 
